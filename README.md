@@ -63,9 +63,9 @@ I believe in:
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=161seconds&theme=tokyonight&hide_border=true&include_all_commits=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=161seconds&theme=tokyonight&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=161seconds&theme=tokyonight&hide_border=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true)
+![](https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
@@ -83,4 +83,4 @@ I believe in:
 ---
 
 ## 👀 Profile Views
-![](https://visitcount.itsvg.in/api?id=161seconds&icon=0&color=13)
+![](https://komarev.com/ghpvc/?username=161seconds&color=blue)
