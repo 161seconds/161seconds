@@ -66,6 +66,12 @@ I believe in:
 
 ---
 
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
+
+---
+
 ## GitHub Stats
 
 ![](https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true)
