@@ -11,12 +11,12 @@ I’m building strong foundations in:
 - Databases
 - System Design & Architecture
 
-💡 I enjoy:
+I enjoy:
 - Building APIs & web applications
 - Solving coding problems
 - Understanding how real-world systems work
 
-🔥 Current stack I'm working with:
+Current stack I'm working with:
 - C#, .NET
 - SQL Server
 - Backend architecture basics
@@ -66,7 +66,7 @@ I believe in:
 
 ---
 
-## 🏆 GitHub Trophies
+## GitHub Trophies
 
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
 
