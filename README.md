@@ -74,11 +74,11 @@ I believe in:
 
 ## GitHub Stats
 
-![](https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true)
 
-![](https://github-readme-stats-sigma-five.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true)
 
-![](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
