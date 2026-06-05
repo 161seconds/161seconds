@@ -68,17 +68,21 @@ I believe in:
 
 ## GitHub Trophies
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+</p>
 
 ---
 
 ## GitHub Stats
 
-![GitHub Streak](https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true" />
+</p>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+</p>
 
 ---
 
