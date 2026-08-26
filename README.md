@@ -69,19 +69,16 @@ I believe in:
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=161seconds&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=161seconds&theme=tokyonight&hide_border=true" />
 </p>
-
----
 
 ## Contribution Graph
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=161seconds&theme=tokyo-night&hide_border=true)
-
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=161seconds&theme=tokyo-night)
 ---
 
 ## Current Goals
