@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi+I'm+161seconds;Backend+Developer+in+Progress;Building+cool+stuff+everyday;Never+stop+learning" /></p>
   
 ## About Me
-I'm **Nguyen Van Quoc Bao**, a second-year student at **FPT University**, currently focusing on becoming a **Backend Developer**.
+HI I'm **Nguyen Van Quoc Bao**, a second-year student at **FPT University**, currently focusing on becoming a **Backend Developer**.
 
 I’m building strong foundations in:
 - Programming
