@@ -74,8 +74,7 @@ I believe in:
 
 ## Contribution Graph
 
-![Contribution Graph]
-https://github-readme-activity-graph.vercel.app/graph?username=161seconds&theme=tokyo-night
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=161seconds&theme=tokyo-night)
 ---
 
 ## Current Goals
