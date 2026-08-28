@@ -72,13 +72,10 @@ I believe in:
   <img src="https://streak-stats.demolab.com/?user=161seconds&theme=tokyonight&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=161seconds&theme=tokyonight&hide_border=true" />
-</p>
-
 ## Contribution Graph
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=161seconds&theme=tokyo-night)
+![Contribution Graph]
+https://github-readme-activity-graph.vercel.app/graph?username=161seconds&theme=tokyo-night
 ---
 
 ## Current Goals
