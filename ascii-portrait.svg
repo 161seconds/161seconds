@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 320" width="370" height="320" fill="none">
+  <style>
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 8px; }
+    .title-bar { fill: #161b22; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .term-title { fill: #8b949e; font-family: "JetBrains Mono", "Courier New", monospace; font-size: 11px; }
+    
+    text {
+      fill: #58a6ff;
+      font-family: "JetBrains Mono", "Courier New", monospace;
+      font-size: 7.5px;
+      letter-spacing: 1px;
+      white-space: pre;
+    }
+    .row {
+      opacity: 0;
+      animation: typeRow 0.05s forwards;
+    }
+    @keyframes typeRow {
+      to { opacity: 1; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="370" height="320" class="bg" />
+
+  <!-- Window Header -->
+  <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 362 0 C 366.42 0 370 3.58 370 8 L 370 28 L 0 28 Z" class="title-bar" />
+  <circle cx="16" cy="14" r="5" class="dot-red" />
+  <circle cx="32" cy="14" r="5" class="dot-yellow" />
+  <circle cx="48" cy="14" r="5" class="dot-green" />
+  <text x="185" y="18" text-anchor="middle" class="term-title">portrait.ascii</text>
+
+  <!-- Animated Rows -->
+  
+    <g class="row" style="animation-delay: 0.000s;">
+      <text x="18" y="42.0">                ....................                </text>
+    </g>
+    <g class="row" style="animation-delay: 0.035s;">
+      <text x="18" y="50.5">            .:+shddddddddddddddddhs+:.            </text>
+    </g>
+    <g class="row" style="animation-delay: 0.070s;">
+      <text x="18" y="59.0">          -+ydmmmmmmmmmmmmmmmmmmmmmmdy+-          </text>
+    </g>
+    <g class="row" style="animation-delay: 0.105s;">
+      <text x="18" y="67.5">        -sdmmmmmmmmmmmmmmmmmmmmmmmmmmmmds-        </text>
+    </g>
+    <g class="row" style="animation-delay: 0.140s;">
+      <text x="18" y="76.0">       +dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd+       </text>
+    </g>
+    <g class="row" style="animation-delay: 0.175s;">
+      <text x="18" y="84.5">      +dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd+      </text>
+    </g>
+    <g class="row" style="animation-delay: 0.210s;">
+      <text x="18" y="93.0">     +dmmmmmmmmmmmmmNNNNNNNNmmmmmmmmmmmmmmmd+     </text>
+    </g>
+    <g class="row" style="animation-delay: 0.245s;">
+      <text x="18" y="101.5">    :dmmmmmmmmmmNNNNNNNNNNNNNNNNmmmmmmmmmmmmd:    </text>
+    </g>
+    <g class="row" style="animation-delay: 0.280s;">
+      <text x="18" y="110.0">    smmmmmmmmmNNNNNNNNNNNNNNNNNNNNmmmmmmmmmmms    </text>
+    </g>
+    <g class="row" style="animation-delay: 0.315s;">
+      <text x="18" y="118.5">   .dmmmmmmmmNNNNNNNNNNNNNNNNNNNNNNmmmmmmmmmmd.   </text>
+    </g>
+    <g class="row" style="animation-delay: 0.350s;">
+      <text x="18" y="127.0">   :mmmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNmmmmmmmm:   </text>
+    </g>
+    <g class="row" style="animation-delay: 0.385s;">
+      <text x="18" y="135.5">   +mmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmmmmmm+   </text>
+    </g>
+    <g class="row" style="animation-delay: 0.420s;">
+      <text x="18" y="144.0">   +mmmmmmNNNNNNNmdhysooosyhdmNNNNNNNNmmmmmmm+   </text>
+    </g>
+    <g class="row" style="animation-delay: 0.455s;">
+      <text x="18" y="152.5">   :mmmmmmNNNNmy+:.          .:+ymNNNNmmmmmmm:   </text>
+    </g>
+    <g class="row" style="animation-delay: 0.490s;">
+      <text x="18" y="161.0">   .dmmmmmNNNs.                  .sNNNmmmmmmd.   </text>
+    </g>
+    <g class="row" style="animation-delay: 0.525s;">
+      <text x="18" y="169.5">    smmmmmNNy                      yNNmmmmmmms    </text>
+    </g>
+    <g class="row" style="animation-delay: 0.560s;">
+      <text x="18" y="178.0">    :dmmmmNN:   .://.      .://.   :NNmmmmmmd:    </text>
+    </g>
+    <g class="row" style="animation-delay: 0.595s;">
+      <text x="18" y="186.5">     +dmmmNN-  -s++os-    -s++os-  -NNmmmmmd+     </text>
+    </g>
+    <g class="row" style="animation-delay: 0.630s;">
+      <text x="18" y="195.0">      +dmmNN:  :s--+s:    :s--+s:  :NNmmmmd+      </text>
+    </g>
+    <g class="row" style="animation-delay: 0.665s;">
+      <text x="18" y="203.5">       +dmNNs   .::.        .::.   sNNmmd+       </text>
+    </g>
+    <g class="row" style="animation-delay: 0.700s;">
+      <text x="18" y="212.0">        -sdNNy.                  .yNNds-        </text>
+    </g>
+    <g class="row" style="animation-delay: 0.735s;">
+      <text x="18" y="220.5">          -+ydmds/-          -/sdmdy+-          </text>
+    </g>
+    <g class="row" style="animation-delay: 0.770s;">
+      <text x="18" y="229.0">            .:+shddddo:--:oddddhs+:.            </text>
+    </g>
+    <g class="row" style="animation-delay: 0.805s;">
+      <text x="18" y="237.5">                ..:+shdmmdhso+..                </text>
+    </g>
+    <g class="row" style="animation-delay: 0.840s;">
+      <text x="18" y="246.0">             -/oydmNNNNNNNNNNmdyo/-             </text>
+    </g>
+    <g class="row" style="animation-delay: 0.875s;">
+      <text x="18" y="254.5">         ./sdmNNNNNNNNNNNNNNNNNNNNmds/.         </text>
+    </g>
+    <g class="row" style="animation-delay: 0.910s;">
+      <text x="18" y="263.0">       :sdmNNNNNNNNNNNNNNNNNNNNNNNNNNmds:       </text>
+    </g>
+    <g class="row" style="animation-delay: 0.945s;">
+      <text x="18" y="271.5">     :hNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNh:     </text>
+    </g>
+    <g class="row" style="animation-delay: 0.980s;">
+      <text x="18" y="280.0">   .yNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNy.   </text>
+    </g>
+    <g class="row" style="animation-delay: 1.015s;">
+      <text x="18" y="288.5">  -dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd-  </text>
+    </g>
+    <g class="row" style="animation-delay: 1.050s;">
+      <text x="18" y="297.0"> +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+ </text>
+    </g>
+</svg>
