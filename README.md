@@ -66,6 +66,12 @@ I believe in:
 
 ---
 
+## 🏆 GitHub Trophies
+
+![](https://github-trophies.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
+
+---
+
 ## GitHub Stats
 
 <div align="center">
