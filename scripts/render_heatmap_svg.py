@@ -11,13 +11,11 @@ def render_svg():
     with open(data_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    days = data.get("days", [])
+    cells = data.get("cells", [])
     total = data.get("total_contributions", 0)
     streak = data.get("current_streak", 0)
     longest = data.get("longest_streak", 0)
-
-    # 53 weeks * 7 days = 371 days maximum
-    days = days[-371:] if len(days) >= 371 else days
+    month_data = data.get("month_labels", [])
 
     cell_size = 11
     cell_gap = 3
@@ -28,28 +26,31 @@ def render_svg():
     svg_height = 175
 
     rects = []
-    weeks = [days[i:i+7] for i in range(0, len(days), 7)]
+    for cell in cells:
+        col = cell.get("col", 0)
+        row = cell.get("row", 0)
+        x = start_x + col * (cell_size + cell_gap)
+        y = start_y + row * (cell_size + cell_gap)
+        
+        level = min(cell.get("level", 0), len(PALETTE) - 1)
+        color = PALETTE[level]
+        
+        # Diagonal reveal animation
+        delay = (col * 0.015) + (row * 0.025)
+        date = cell.get("date", "")
+        count = cell.get("count", 0)
+        
+        rect = f'''<rect class="cell" x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" rx="2" fill="{color}" style="animation-delay: {delay:.3f}s;"><title>{date}: {count} contributions</title></rect>'''
+        rects.append(rect)
 
-    for col_idx, week in enumerate(weeks):
-        x = start_x + col_idx * (cell_size + cell_gap)
-        for row_idx, day in enumerate(week):
-            y = start_y + row_idx * (cell_size + cell_gap)
-            level = min(day.get("level", 0), len(PALETTE) - 1)
-            color = PALETTE[level]
-            
-            # Diagonal reveal delay
-            delay = (col_idx * 0.015) + (row_idx * 0.025)
-            
-            rect = f'''<rect class="cell" x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" rx="2" fill="{color}" style="animation-delay: {delay:.3f}s;"><title>{day.get('date', '')}: {day.get('count', 0)} contributions</title></rect>'''
-            rects.append(rect)
-
-    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    # Month Labels
     month_labels = []
-    num_weeks = max(len(weeks), 1)
-    for i, m in enumerate(months):
-        mx = start_x + int(i * (num_weeks / 12) * (cell_size + cell_gap))
-        month_labels.append(f'<text x="{mx}" y="24" class="label">{m}</text>')
+    for m in month_data:
+        col = m.get("col", 0)
+        mx = start_x + col * (cell_size + cell_gap)
+        month_labels.append(f'<text x="{mx}" y="24" class="label">{m.get("month", "")}</text>')
 
+    # Day of week labels: Row 1 = Mon, Row 3 = Wed, Row 5 = Fri
     day_labels = [
         f'<text x="10" y="{start_y + 1 * (cell_size + cell_gap) + 9}" class="label">Mon</text>',
         f'<text x="10" y="{start_y + 3 * (cell_size + cell_gap) + 9}" class="label">Wed</text>',
@@ -103,7 +104,7 @@ def render_svg():
     with open("contrib-heatmap.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
 
-    print("[OK] Successfully generated contrib-heatmap.svg")
+    print("[OK] Successfully generated contrib-heatmap.svg with exact 2D coordinates")
 
 if __name__ == "__main__":
     render_svg()

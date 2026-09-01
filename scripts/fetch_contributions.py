@@ -17,74 +17,101 @@ def fetch_contributions():
         raise RuntimeError(f"Failed to fetch contributions: HTTP {resp.status_code}")
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    days = []
+    
+    # 1. Parse month headers from thead
+    month_labels = []
+    thead = soup.find("thead")
+    if thead:
+        th_tds = thead.find_all("td", class_="ContributionCalendar-label")
+        current_col = 0
+        for td in th_tds:
+            # text contains "September\nSep" or similar
+            raw_text = td.text.strip().split()
+            month_short = raw_text[-1] if raw_text else ""
+            colspan = int(td.get("colspan", 1))
+            if month_short:
+                month_labels.append({
+                    "month": month_short,
+                    "col": current_col
+                })
+            current_col += colspan
 
-    # Find day elements: GitHub uses td.ContributionCalendar-day or td[data-date]
-    day_elements = soup.find_all("td", class_="ContributionCalendar-day")
-    if not day_elements:
-        day_elements = soup.find_all("td", attrs={"data-date": True})
+    # 2. Parse 2D calendar table from tbody
+    tbody = soup.find("tbody")
+    if not tbody:
+        raise RuntimeError("Could not find tbody in contribution calendar")
 
+    tr_rows = tbody.find_all("tr") # Exactly 7 rows: Row 0=Sun, 1=Mon, ..., 6=Sat
+    
+    cells = []
+    days_by_date = {}
+
+    for day_of_week, tr in enumerate(tr_rows):
+        tds = tr.find_all("td", class_="ContributionCalendar-day")
+        for week_idx, td in enumerate(tds):
+            date = td.get("data-date")
+            if not date:
+                continue
+            level = int(td.get("data-level", 0))
+            td_id = td.get("id", "")
+            count = 0
+            
+            tooltip = soup.find("tool-tip", attrs={"for": td_id}) if td_id else None
+            if tooltip and tooltip.text:
+                m = re.search(r"(\d+)\s+contribution", tooltip.text)
+                if m:
+                    count = int(m.group(1))
+            else:
+                count = 1 if level > 0 else 0
+
+            cell_info = {
+                "date": date,
+                "col": week_idx,
+                "row": day_of_week,
+                "level": level,
+                "count": count
+            }
+            cells.append(cell_info)
+            days_by_date[date] = cell_info
+
+    # Sort all days chronologically by date
+    sorted_dates = sorted(days_by_date.keys())
+    
     total_contributions = 0
     longest_streak = 0
     temp_streak = 0
     best_day = {"date": "", "count": 0}
 
-    for td in day_elements:
-        date = td.get("data-date")
-        if not date:
-            continue
-        level = int(td.get("data-level", 0))
-
-        td_id = td.get("id", "")
-        count = 0
-        tooltip = soup.find("tool-tip", attrs={"for": td_id}) if td_id else None
-
-        if tooltip and tooltip.text:
-            match = re.search(r"(\d+)\s+contribution", tooltip.text)
-            if match:
-                count = int(match.group(1))
-            elif "No contribution" in tooltip.text:
-                count = 0
-        else:
-            count = 1 if level > 0 else 0
-
-        total_contributions += count
-
-        if count > 0:
+    for d in sorted_dates:
+        cnt = days_by_date[d]["count"]
+        total_contributions += cnt
+        if cnt > 0:
             temp_streak += 1
             if temp_streak > longest_streak:
                 longest_streak = temp_streak
         else:
             temp_streak = 0
 
-        if count > best_day["count"]:
-            best_day = {"date": date, "count": count}
+        if cnt > best_day["count"]:
+            best_day = {"date": d, "count": cnt}
 
-        days.append({
-            "date": date,
-            "count": count,
-            "level": level
-        })
-
-    # Calculate current streak
+    # Calculate current streak backwards from today
     current_streak = 0
-    for day in reversed(days):
-        if day["count"] > 0:
+    for d in reversed(sorted_dates):
+        cnt = days_by_date[d]["count"]
+        if cnt > 0:
             current_streak += 1
         else:
             if current_streak == 0:
                 continue
             break
 
-    # Look for exact total in header text if present
+    # Check header text for exact yearly total count
     header_text = soup.find("h2", class_="f4 text-normal mb-2")
-    if not header_text:
-        header_text = soup.find(string=re.compile(r"contributions in the last year", re.I))
     if header_text:
-        text_val = header_text.text if hasattr(header_text, 'text') else str(header_text)
-        match = re.search(r"([\d,]+)\s+contributions", text_val)
-        if match:
-            total_contributions = int(match.group(1).replace(",", ""))
+        m = re.search(r"([\d,]+)\s+contributions", header_text.text)
+        if m:
+            total_contributions = int(m.group(1).replace(",", ""))
 
     data = {
         "username": USERNAME,
@@ -93,14 +120,16 @@ def fetch_contributions():
         "current_streak": current_streak,
         "longest_streak": longest_streak,
         "best_day": best_day,
-        "days": days
+        "month_labels": month_labels,
+        "cells": cells
     }
 
     os.makedirs("data", exist_ok=True)
     with open("data/contributions.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
-    print(f"[OK] Fetched {len(days)} days. Total contributions: {total_contributions}, Current streak: {current_streak}, Longest: {longest_streak}")
+    print(f"[OK] Fetched {len(cells)} cells across {len(sorted_dates)} dates.")
+    print(f"[OK] Total: {total_contributions}, Current streak: {current_streak}, Longest streak: {longest_streak}")
 
 if __name__ == "__main__":
     fetch_contributions()

@@ -16,6 +16,7 @@ def generate_info_card():
     .code-text {{
       font-family: "JetBrains Mono", "Courier New", monospace;
       font-size: 12px;
+      dominant-baseline: middle;
     }}
     .key {{ fill: #58a6ff; font-weight: bold; }}
     .val {{ fill: #c9d1d9; }}
@@ -26,15 +27,11 @@ def generate_info_card():
 
     .line {{
       opacity: 0;
-      animation: lineIn 0.4s ease forwards;
+      animation: lineIn 0.35s ease forwards;
     }}
     @keyframes lineIn {{
-      from {{
-        opacity: 0;
-      }}
-      to {{
-        opacity: 1;
-      }}
+      from {{ opacity: 0; }}
+      to {{ opacity: 1; }}
     }}
   </style>
 
@@ -48,50 +45,50 @@ def generate_info_card():
   <circle cx="48" cy="14" r="5" class="dot-green" />
   <text x="{width // 2}" y="18" text-anchor="middle" class="term-title">161seconds@github: ~ (neofetch)</text>
 
-  <!-- Terminal Content Lines with explicit Y coordinates -->
-  <g class="code-text" transform="translate(20, 52)">
+  <!-- Terminal Content Lines with explicit X and Y coordinates -->
+  <g class="code-text">
     <g class="line" style="animation-delay: 0.08s;">
-      <text y="0"><tspan class="prompt">➜</tspan> <tspan class="user">161seconds</tspan><tspan class="sub">@github</tspan></text>
-      <text y="14" class="sub">---------------------------------------</text>
+      <text x="24" y="56"><tspan class="prompt">➜</tspan> <tspan class="user">161seconds</tspan><tspan class="sub">@github</tspan></text>
+      <text x="24" y="74" class="sub">---------------------------------------</text>
     </g>
 
     <g class="line" style="animation-delay: 0.16s;">
-      <text y="36"><tspan class="key">Name      :</tspan> <tspan class="val">Nguyen Van Quoc Bao</tspan></text>
+      <text x="24" y="98"><tspan class="key">Name      :</tspan> <tspan class="val">Nguyen Van Quoc Bao</tspan></text>
     </g>
 
     <g class="line" style="animation-delay: 0.24s;">
-      <text y="58"><tspan class="key">Role      :</tspan> <tspan class="accent">Backend Developer in Progress</tspan></text>
+      <text x="24" y="120"><tspan class="key">Role      :</tspan> <tspan class="accent">Backend Developer in Progress</tspan></text>
     </g>
 
     <g class="line" style="animation-delay: 0.32s;">
-      <text y="80"><tspan class="key">Education :</tspan> <tspan class="val">FPT University (Year 3)</tspan></text>
+      <text x="24" y="142"><tspan class="key">Education :</tspan> <tspan class="val">FPT University (Year 3)</tspan></text>
     </g>
 
     <g class="line" style="animation-delay: 0.40s;">
-      <text y="102"><tspan class="key">Stack     :</tspan> <tspan class="val">C#, .NET Core, SQL Server, MongoDB</tspan></text>
+      <text x="24" y="164"><tspan class="key">Stack     :</tspan> <tspan class="val">C#, .NET Core, SQL Server, MongoDB</tspan></text>
     </g>
 
     <g class="line" style="animation-delay: 0.48s;">
-      <text y="124"><tspan class="key">Interests :</tspan> <tspan class="val">APIs, System Design, Architecture</tspan></text>
+      <text x="24" y="186"><tspan class="key">Interests :</tspan> <tspan class="val">APIs, System Design, Architecture</tspan></text>
     </g>
 
     <g class="line" style="animation-delay: 0.56s;">
-      <text y="146"><tspan class="key">Motto     :</tspan> <tspan class="accent">Consistency &gt; Motivation</tspan></text>
+      <text x="24" y="208"><tspan class="key">Motto     :</tspan> <tspan class="accent">Consistency &gt; Motivation</tspan></text>
     </g>
 
     <g class="line" style="animation-delay: 0.64s;">
-      <text y="168"><tspan class="key">Status    :</tspan> <tspan class="val">Building cool stuff everyday 🚀</tspan></text>
+      <text x="24" y="230"><tspan class="key">Status    :</tspan> <tspan class="val">Building cool stuff everyday 🚀</tspan></text>
     </g>
 
     <!-- Color Palette Blocks -->
     <g class="line" style="animation-delay: 0.72s;">
-      <rect x="0"   y="190" width="22" height="12" rx="2" fill="#ff7b72" />
-      <rect x="28"  y="190" width="22" height="12" rx="2" fill="#ffa657" />
-      <rect x="56"  y="190" width="22" height="12" rx="2" fill="#d2a8ff" />
-      <rect x="84"  y="190" width="22" height="12" rx="2" fill="#79c0ff" />
-      <rect x="112" y="190" width="22" height="12" rx="2" fill="#58a6ff" />
-      <rect x="140" y="190" width="22" height="12" rx="2" fill="#39d353" />
-      <rect x="168" y="190" width="22" height="12" rx="2" fill="#f0f6fc" />
+      <rect x="24"  y="256" width="24" height="12" rx="2" fill="#ff7b72" />
+      <rect x="54"  y="256" width="24" height="12" rx="2" fill="#ffa657" />
+      <rect x="84"  y="256" width="24" height="12" rx="2" fill="#d2a8ff" />
+      <rect x="114" y="256" width="24" height="12" rx="2" fill="#79c0ff" />
+      <rect x="144" y="256" width="24" height="12" rx="2" fill="#58a6ff" />
+      <rect x="174" y="256" width="24" height="12" rx="2" fill="#39d353" />
+      <rect x="204" y="256" width="24" height="12" rx="2" fill="#f0f6fc" />
     </g>
   </g>
 </svg>'''
