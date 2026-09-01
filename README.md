@@ -68,9 +68,25 @@ I believe in:
 
 ## GitHub Stats
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=161seconds&theme=tokyonight&hide_border=true" />
-</p>
+<div align="center">
+
+<img
+  src="https://github-stats-extended.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true"
+  height="170"
+/>
+<img
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true"
+  height="170"
+/>
+
+<br/>
+
+<img
+  src="https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true"
+  height="170"
+/>
+
+</div>
 
 ## Contribution Graph
 
