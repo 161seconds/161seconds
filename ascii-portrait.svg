@@ -36,96 +36,87 @@
   <!-- Animated Rows -->
   
     <g class="row" style="animation-delay: 0.000s;">
-      <text x="18" y="42.0">                ....................                </text>
+      <text x="18" y="42.0">#*+**-:`=++:-=-:::+*++===+-=s=---=-:+++==+::-+=+---*</text>
     </g>
     <g class="row" style="animation-delay: 0.035s;">
-      <text x="18" y="50.5">            .:+shddddddddddddddddhs+:.            </text>
+      <text x="18" y="50.5">c+===-=s*+=--=+=:=*+==:=+c**c==---+****++c*=:-`-=--=</text>
     </g>
     <g class="row" style="animation-delay: 0.070s;">
-      <text x="18" y="59.0">          -+ydmmmmmmmmmmmmmmmmmmmmmmdy+-          </text>
+      <text x="18" y="59.0">++::=--+-=+++++=+*+c+==+*=-=-+**=+ccc#scc*=**c+*+-=:</text>
     </g>
     <g class="row" style="animation-delay: 0.105s;">
-      <text x="18" y="67.5">        -sdmmmmmmmmmmmmmmmmmmmmmmmmmmmmds-        </text>
+      <text x="18" y="67.5">c+-:----=c=:-=:`=**==:-=***+cssc##scssc+++-+*cccs*cc</text>
     </g>
     <g class="row" style="animation-delay: 0.140s;">
-      <text x="18" y="76.0">       +dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd+       </text>
+      <text x="18" y="76.0">c+=*==`-c+-**::+=*s*+++*+++-+----:::-+cc=*+--++csss+</text>
     </g>
     <g class="row" style="animation-delay: 0.175s;">
-      <text x="18" y="84.5">      +dmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd+      </text>
+      <text x="18" y="84.5">**+=++:-*=+*c**sssc**+-.```:``:-::-`:--***=--+=+*c-`</text>
     </g>
     <g class="row" style="animation-delay: 0.210s;">
-      <text x="18" y="93.0">     +dmmmmmmmmmmmmmNNNNNNNNmmmmmmmmmmmmmmmd+     </text>
+      <text x="18" y="93.0">++*+*+-==+*+*#c+=-```:-+sc*++++===-:=+===*----::-+.-</text>
     </g>
     <g class="row" style="animation-delay: 0.245s;">
-      <text x="18" y="101.5">    :dmmmmmmmmmmNNNNNNNNNNNNNNNNmmmmmmmmmmmmd:    </text>
+      <text x="18" y="101.5">s+---=+=+*sc#*`.``=cs%%%%scc**+=-::--==+====+--=+:=c</text>
     </g>
     <g class="row" style="animation-delay: 0.280s;">
-      <text x="18" y="110.0">    smmmmmmmmmNNNNNNNNNNNNNNNNNNNNmmmmmmmmmmms    </text>
+      <text x="18" y="110.0">+-=-c+*--**c=.-=+*%%%ss*=++++=++++*++=-=+*+-+*+++c*=</text>
     </g>
     <g class="row" style="animation-delay: 0.315s;">
-      <text x="18" y="118.5">   .dmmmmmmmmNNNNNNNNNNNNNNNNNNNNNNmmmmmmmmmmd.   </text>
+      <text x="18" y="118.5">-=--=--=+++*==+****+#+=-`:-:-*csc**c+++*++--=::-sc=+</text>
     </g>
     <g class="row" style="animation-delay: 0.350s;">
-      <text x="18" y="127.0">   :mmmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNmmmmmmmm:   </text>
+      <text x="18" y="127.0">:=-:::=*s==+*ccc=-:`=****+=: `sssc+*c**c*--==-`*#***</text>
     </g>
     <g class="row" style="animation-delay: 0.385s;">
-      <text x="18" y="135.5">   +mmmmmmNNNNNNNNNNNNNNNNNNNNNNNNNNNNmmmmmmm+   </text>
+      <text x="18" y="135.5">-:`+*==s+:-+**-`..:``:-=+---..=*+++-----:-+=--:sc+cc</text>
     </g>
     <g class="row" style="animation-delay: 0.420s;">
-      <text x="18" y="144.0">   +mmmmmmNNNNNNNmdhysooosyhdmNNNNNNNNmmmmmmm+   </text>
+      <text x="18" y="144.0">---=%%s**=++*-..`:=```:`:``=::.=++*--===:---`:-***cc</text>
     </g>
     <g class="row" style="animation-delay: 0.455s;">
-      <text x="18" y="152.5">   :mmmmmmNNNNmy+:.          .:+ymNNNNmmmmmmm:   </text>
+      <text x="18" y="152.5">:+csc**:cs###: `-+=.```:```:+-.-c+*+--**-`==`::c*csc</text>
     </g>
     <g class="row" style="animation-delay: 0.490s;">
-      <text x="18" y="161.0">   .dmmmmmNNNs.                  .sNNNmmmmmmd.   </text>
+      <text x="18" y="161.0">c####cc#cc#s+``.=*-.`::::```+===+++*s+c*+===--=s**cs</text>
     </g>
     <g class="row" style="animation-delay: 0.525s;">
-      <text x="18" y="169.5">    smmmmmNNy                      yNNmmmmmmms    </text>
+      <text x="18" y="169.5">s%####%###c*c:`-*==-.```:-:-*-=++**=+c#s*=*-=-+sc*cc</text>
     </g>
     <g class="row" style="animation-delay: 0.560s;">
-      <text x="18" y="178.0">    :dmmmmNN:   .://.      .://.   :NNmmmmmmd:    </text>
+      <text x="18" y="178.0">+c=:s%####=sc-=#*:++`.::.``+%+=c::-:---=**++=-csscss</text>
     </g>
     <g class="row" style="animation-delay: 0.595s;">
-      <text x="18" y="186.5">     +dmmmNN-  -s++os-    -s++os-  -NNmmmmmd+     </text>
+      <text x="18" y="186.5">-=`:c%%%#s-+=:+*-:`--.`:-:-+#%#s-`=*-+*--+==-=%sccss</text>
     </g>
     <g class="row" style="animation-delay: 0.630s;">
-      <text x="18" y="195.0">      +dmmNN:  :s--+s:    :s--+s:  :NNmmmmd+      </text>
+      <text x="18" y="195.0">`::-c####c==+-=c*-=**`.:-==:=***c***+-*+==+==s#c**cc</text>
     </g>
     <g class="row" style="animation-delay: 0.665s;">
-      <text x="18" y="203.5">       +dmNNs   .::.        .::.   sNNmmd+       </text>
+      <text x="18" y="203.5"> ---ss#%c+=-+=+**==::=..--::``=***+=*+=:+=:-=cs=++*c</text>
     </g>
     <g class="row" style="animation-delay: 0.700s;">
-      <text x="18" y="212.0">        -sdNNy.                  .yNNds-        </text>
+      <text x="18" y="212.0">-s+:+s#%=:c+*+-+-.  .:-.`:..`-*c+=-*===--= `-=+++***</text>
     </g>
     <g class="row" style="animation-delay: 0.735s;">
-      <text x="18" y="220.5">          -+ydmds/-          -/sdmdy+-          </text>
+      <text x="18" y="220.5">csc*=cs#-`ccc+:=*=``````..:+s*=c++++++`==+--:`=*cccc</text>
     </g>
     <g class="row" style="animation-delay: 0.770s;">
-      <text x="18" y="229.0">            .:+shddddo:--:oddddhs+:.            </text>
+      <text x="18" y="229.0">####++#s+`css=``-##ssc*+csscc*-*c+=cc*+--===+-=cccss</text>
     </g>
     <g class="row" style="animation-delay: 0.805s;">
-      <text x="18" y="237.5">                ..:+shdmmdhso+..                </text>
+      <text x="18" y="237.5">*cs+-:*s*-*#s::--cs**cs#%#c+++:=+:=-==ccccccc==****c</text>
     </g>
     <g class="row" style="animation-delay: 0.840s;">
-      <text x="18" y="246.0">             -/oydmNNNNNNNNNNmdyo/-             </text>
+      <text x="18" y="246.0">+*c*+-:--=c%#=-==*s***cc%#sc++:`-:-=+=`=++==+=++cccc</text>
     </g>
     <g class="row" style="animation-delay: 0.875s;">
-      <text x="18" y="254.5">         ./sdmNNNNNNNNNNNNNNNNNNNNmds/.         </text>
+      <text x="18" y="254.5">*=-==--::=cc++*++=sc*cc-##sc++-:-+*+**=-=+=+++==*+**</text>
     </g>
     <g class="row" style="animation-delay: 0.910s;">
-      <text x="18" y="263.0">       :sdmNNNNNNNNNNNNNNNNNNNNNNNNNNmds:       </text>
+      <text x="18" y="263.0">s#+==-====+=-:::--cc*sc:*#sscc+-:-*+*css*+===+==sc**</text>
     </g>
     <g class="row" style="animation-delay: 0.945s;">
-      <text x="18" y="271.5">     :hNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNh:     </text>
-    </g>
-    <g class="row" style="animation-delay: 0.980s;">
-      <text x="18" y="280.0">   .yNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNy.   </text>
-    </g>
-    <g class="row" style="animation-delay: 1.015s;">
-      <text x="18" y="288.5">  -dNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNd-  </text>
-    </g>
-    <g class="row" style="animation-delay: 1.050s;">
-      <text x="18" y="297.0"> +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+ </text>
+      <text x="18" y="271.5">ccc*==-::-+:````:`cscss:=scs##+````-+===*-:::`:-#%*+</text>
     </g>
 </svg>
