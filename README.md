@@ -1,139 +1,126 @@
+# Nguyen Van Quoc Bao
+
+**Backend-focused developer · C# / ASP.NET Core · FPT University**
+
+I'm a third-year student in Vietnam building **APIs, data-driven applications, and real-time features**. I focus on clear API contracts, sensible data models, and testable backend code.
+
+[Email](mailto:baonvq161@gmail.com) · [LinkedIn](https://www.linkedin.com/in/b%E1%BA%A3o-qu%E1%BB%91c-411506369/) · [Selected work](#selected-work) · [Tech stack](#tech-stack)
+
+## Selected work
+
+<table role="presentation">
+  <tr>
+    <td colspan="2">
+      <code>FEATURED / C# + ASP.NET CORE</code>
+      <h3><a href="https://github.com/161seconds/shuttle-sync">ShuttleSync</a></h3>
+      <p>A sports booking and club management platform covering court bookings, tournaments, chat, reviews, and AI coaching.</p>
+      <p><strong>Backend focus:</strong> API, Service, and Repository layers; MongoDB-backed workflows; cookie authentication; real-time updates with SignalR.</p>
+      <p><code>C#</code> <code>ASP.NET Core</code> <code>MongoDB</code> <code>SignalR</code> <code>xUnit</code></p>
+      <p><a href="https://github.com/161seconds/shuttle-sync#architecture">Architecture &amp; setup</a> · <a href="https://github.com/161seconds/shuttle-sync/tree/main/ShuttleSync.Service">Business logic</a> · <a href="https://github.com/161seconds/shuttle-sync/tree/main/ShuttleSync.Test">Integration tests</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <code>REAL-TIME SYSTEMS</code>
+      <h3><a href="https://github.com/161seconds/gps">GPS Realtime</a></h3>
+      <p>A shared map with road routing, synchronized endpoints, and live GPS updates across devices.</p>
+      <p><strong>Engineering focus:</strong> SignalR broadcasts, routing responses, and reconnect state.</p>
+      <p><code>.NET</code> <code>SignalR</code> <code>Leaflet</code> <code>JavaScript</code></p>
+      <p><a href="https://github.com/161seconds/gps/blob/main/Program.cs">Server</a> · <a href="https://github.com/161seconds/gps/blob/main/scripts/check.mjs">Checks</a> · <a href="https://github.com/161seconds/gps#run-locally">Run locally</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <code>AI + DATA</code>
+      <h3><a href="https://github.com/161seconds/one61-rag">One61 RAG</a></h3>
+      <p>A logistics assistant combining warehouse SQL queries, document retrieval, and AI answers with source citations.</p>
+      <p><strong>Engineering focus:</strong> FastAPI endpoints, retrieval pipelines, and response verification.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Qdrant</code></p>
+      <p><a href="https://github.com/161seconds/one61-rag/blob/main/src/agents/pipeline.py">Pipeline</a> · <a href="https://github.com/161seconds/one61-rag/tree/main/tests">Tests</a> · <a href="https://github.com/161seconds/one61-rag#local-setup">Run locally</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <code>DOCUMENTATION + PRACTICE</code>
+      <h3><a href="https://github.com/161seconds/revision-document">Revision Documents</a></h3>
+      <p>A curated engineering knowledge base with revision notes, cheat sheets, runnable examples, and practice labs.</p>
+      <p><strong>Learning focus:</strong> API contracts, PostgreSQL concurrency, .NET integration testing, and reliable payment workflows.</p>
+      <p><code>.NET</code> <code>PostgreSQL</code> <code>Testing</code> <code>System design</code></p>
+      <p><a href="https://github.com/161seconds/revision-document/tree/main/api-contracts">API contracts</a> · <a href="https://github.com/161seconds/revision-document/tree/main/postgresql-concurrency">Concurrency labs</a> · <a href="https://github.com/161seconds/revision-document/tree/main/dotnet-integration-testing">Integration testing</a></p>
+    </td>
+  </tr>
+</table>
+
+[More projects and experiments](https://github.com/161seconds?tab=repositories)
+
+## Tech stack
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+| Area | Technologies |
+| :--- | :--- |
+| Backend | C#, ASP.NET Core, Entity Framework Core, REST APIs, SignalR |
+| Databases | PostgreSQL, SQL Server, MySQL, MongoDB |
+| Other languages | Python, Java, C, C++ |
+| Web & design | JavaScript, TypeScript, HTML, CSS, Vite, Figma |
+| Workflow & deployment | Git, GitHub Actions, Docker, Vercel |
+| AI tools | OpenAI Codex |
+
+## Current focus
+
+<table role="presentation">
+  <tr>
+    <td width="50%" valign="top">
+      <code>01</code> <sub>BACKEND DEPTH</sub>
+      <h3>Go deeper with .NET</h3>
+      <p>ASP.NET Core, clean architecture, and services that are easy to test.</p>
+    </td>
+    <td width="50%" valign="top">
+      <code>02</code> <sub>API DESIGN</sub>
+      <h3>Design for growth</h3>
+      <p>RESTful APIs, service boundaries, and microservices trade-offs.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <code>03</code> <sub>SYSTEM DESIGN</sub>
+      <h3>Learn the trade-offs</h3>
+      <p>Caching, Redis, queues, and rate limiting through practical experiments.</p>
+    </td>
+    <td width="50%" valign="top">
+      <code>04</code> <sub>BUILD &amp; CONTRIBUTE</sub>
+      <h3>Ship useful work</h3>
+      <p>Real-world projects and open-source contributions that turn learning into practice.</p>
+    </td>
+  </tr>
+</table>
+
+## GitHub activity
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=header" alt="Profile header" />
+  <img src="https://github-stats-extended.vercel.app/api?username=161seconds&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" width="430" alt="GitHub statistics for 161seconds" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=161seconds&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" width="310" alt="Most used languages across my GitHub repositories" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=800&lines=Nguyen+Van+Quoc+Bao;Backend+Development+with+C%23+and+ASP.NET+Core;APIs%2C+Databases%2C+and+System+Design" alt="Nguyen Van Quoc Bao - Backend development with C# and ASP.NET Core" />
+  <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap, total contributions, and current and longest streaks for 161seconds" />
 </p>
-
-## About Me
-
-I'm **Nguyen Van Quoc Bao** (**161seconds**), a third-year student at **FPT University** focused on **backend development**. My main stack is **C# and ASP.NET Core**, with **SQL Server, MySQL, and MongoDB** for data storage.
-
-I'm interested in the decisions behind an API: how data is modeled, how queries perform, and how services fit together. My goal is to build backend services that are clear, maintainable, and easy to test.
-
-My current focus:
-
-- **API development:** RESTful design and backend architecture with ASP.NET Core.
-- **Databases:** data modeling, SQL, and query optimization.
-- **Foundations:** programming, algorithms, and system design.
-
-> **Principle:** Consistency over motivation.
-
----
-
-<!-- Terminal Profile Art Section -->
-<div align="center">
-  <h3><code>161seconds@github ~ $ ./contributions.sh</code></h3>
-  <img src="./contrib-heatmap.svg" width="860" alt="Contribution Heatmap" />
-
-  <br><br>
-
-  <h3><code>161seconds@github ~ $ whoami</code></h3>
-  <table>
-    <tr>
-      <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="ASCII Portrait" /></td>
-      <td valign="top"><img src="./info-card.svg" width="490" alt="Neofetch Info Card" /></td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
----
-
-## Connect with Me
-
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/baroosipp)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/_baoo.161_/)
-
----
-
-## Tech Stack
-
-### Languages
-
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/csharp-5C2D91?style=for-the-badge&logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-### Backend & Database
-
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![SQL Server](https://img.shields.io/badge/sqlserver-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### Frontend & Tools
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### AI Tools
-
-![OpenAI Codex](https://img.shields.io/badge/OpenAI%20Codex-000000?style=for-the-badge)
-
----
-
-## GitHub Trophies
-
-![GitHub trophies](https://github-trophies.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
-
----
-
-## GitHub Stats
-
-<div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub statistics" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Most used languages" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true" height="170" alt="GitHub contribution streak" />
-</div>
-
----
-
-## Current Goals
-
-- [ ] Master ASP.NET Core & clean architecture
-- [ ] Build scalable RESTful APIs & microservices
-- [ ] Deep dive into system design (caching, Redis, queues, rate-limiting)
-- [ ] Contribute actively to open-source & real-world projects
-
----
-
-## Dev Quote
-
-![Developer quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
----
-
-## Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/161seconds/161seconds/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/161seconds/161seconds/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/161seconds/161seconds/output/github-contribution-grid-snake.svg" width="860" alt="GitHub contribution snake animation" />
+  </picture>
 </p>
-
----
-
-## Profile Views
-
-![Profile views](https://komarev.com/ghpvc/?username=161seconds&color=blue)
-
----
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=footer" alt="Profile footer" />
+  <img src="https://github-trophies.vercel.app/?username=161seconds&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4" width="860" alt="GitHub contribution trophies for 161seconds" />
 </p>
+
+## Get in touch
+
+For backend opportunities, project discussions, or collaboration:
+
+**[baonvq161@gmail.com](mailto:baonvq161@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/b%E1%BA%A3o-qu%E1%BB%91c-411506369/)**
+
+Elsewhere: [Facebook](https://www.facebook.com/baroosipp) · [Instagram](https://www.instagram.com/_baoo.161_/)
+
+<sub>Consistency over motivation.</sub>
