@@ -10,8 +10,8 @@
     text {
       fill: #58a6ff;
       font-family: "JetBrains Mono", "Courier New", monospace;
-      font-size: 7.5px;
-      letter-spacing: 1px;
+      font-size: 4.4px;
+      letter-spacing: 0;
       white-space: pre;
     }
     .row {
@@ -20,6 +20,9 @@
     }
     @keyframes typeRow {
       to { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .row { opacity: 1; animation: none; }
     }
   </style>
 
@@ -36,87 +39,153 @@
   <!-- Animated Rows -->
   
     <g class="row" style="animation-delay: 0.000s;">
-      <text x="18" y="42.0">#*+**-:`=++:-=-:::+*++===+-=s=---=-:+++==+::-+=+---*</text>
+      <text x="185" y="46.4" text-anchor="middle" xml:space="preserve">                                                                                                    </text>
     </g>
     <g class="row" style="animation-delay: 0.035s;">
-      <text x="18" y="50.5">c+===-=s*+=--=+=:=*+==:=+c**c==---+****++c*=:-`-=--=</text>
+      <text x="185" y="51.68" text-anchor="middle" xml:space="preserve">                                                                                                    </text>
     </g>
     <g class="row" style="animation-delay: 0.070s;">
-      <text x="18" y="59.0">++::=--+-=+++++=+*+c+==+*=-=-+**=+ccc#scc*=**c+*+-=:</text>
+      <text x="185" y="56.96" text-anchor="middle" xml:space="preserve">                                                                                                    </text>
     </g>
     <g class="row" style="animation-delay: 0.105s;">
-      <text x="18" y="67.5">c+-:----=c=:-=:`=**==:-=***+cssc##scssc+++-+*cccs*cc</text>
+      <text x="185" y="62.239999999999995" text-anchor="middle" xml:space="preserve">                                                                                                    </text>
     </g>
     <g class="row" style="animation-delay: 0.140s;">
-      <text x="18" y="76.0">c+=*==`-c+-**::+=*s*+++*+++-+----:::-+cc=*+--++csss+</text>
+      <text x="185" y="67.52" text-anchor="middle" xml:space="preserve">                                                .  ..                                               </text>
     </g>
     <g class="row" style="animation-delay: 0.175s;">
-      <text x="18" y="84.5">**+=++:-*=+*c**sssc**+-.```:``:-::-`:--***=--+=+*c-`</text>
+      <text x="185" y="72.8" text-anchor="middle" xml:space="preserve">                                          ..  .............                                         </text>
     </g>
     <g class="row" style="animation-delay: 0.210s;">
-      <text x="18" y="93.0">++*+*+-==+*+*#c+=-```:-+sc*++++===-:=+===*----::-+.-</text>
+      <text x="185" y="78.08" text-anchor="middle" xml:space="preserve">                                    ....  ....:.........:::...                                      </text>
     </g>
     <g class="row" style="animation-delay: 0.245s;">
-      <text x="18" y="101.5">s+---=+=+*sc#*`.``=cs%%%%scc**+=-::--==+====+--=+:=c</text>
+      <text x="185" y="83.36" text-anchor="middle" xml:space="preserve">                                ....:.......:........    ..:::..                                    </text>
     </g>
     <g class="row" style="animation-delay: 0.280s;">
-      <text x="18" y="110.0">+-=-c+*--**c=.-=+*%%%ss*=++++=++++*++=-=+*+-+*+++c*=</text>
+      <text x="185" y="88.64" text-anchor="middle" xml:space="preserve">                             ................     ..................                                </text>
     </g>
     <g class="row" style="animation-delay: 0.315s;">
-      <text x="18" y="118.5">-=--=--=+++*==+****+#+=-`:-:-*csc**c+++*++--=::-sc=+</text>
+      <text x="185" y="93.92" text-anchor="middle" xml:space="preserve">                            ....    ...:..            .....::::::.:::...                            </text>
     </g>
     <g class="row" style="animation-delay: 0.350s;">
-      <text x="18" y="127.0">:=-:::=*s==+*ccc=-:`=****+=: `sssc+*c**c*--==-`*#***</text>
+      <text x="185" y="99.2" text-anchor="middle" xml:space="preserve">                           .:..  .. ......                   ..:......:::..                         </text>
     </g>
     <g class="row" style="animation-delay: 0.385s;">
-      <text x="18" y="135.5">-:`+*==s+:-+**-`..:``:-=+---..=*+++-----:-+=--:sc+cc</text>
+      <text x="185" y="104.48" text-anchor="middle" xml:space="preserve">                        ...:.....        ..             ....  ..::.....:::..                        </text>
     </g>
     <g class="row" style="animation-delay: 0.420s;">
-      <text x="18" y="144.0">---=%%s**=++*-..`:=```:`:``=::.=++*--===:---`:-***cc</text>
+      <text x="185" y="109.75999999999999" text-anchor="middle" xml:space="preserve">                        .:......   ....                   ....  .::.....::...                       </text>
     </g>
     <g class="row" style="animation-delay: 0.455s;">
-      <text x="18" y="152.5">:+csc**:cs###: `-+=.```:```:+-.-c+*+--**-`==`::c*csc</text>
+      <text x="185" y="115.03999999999999" text-anchor="middle" xml:space="preserve">                       ......    ......:...          ....   .:.   ........::.                       </text>
     </g>
     <g class="row" style="animation-delay: 0.490s;">
-      <text x="18" y="161.0">c####cc#cc#s+``.=*-.`::::```+===+++*s+c*+===--=s**cs</text>
+      <text x="185" y="120.32" text-anchor="middle" xml:space="preserve">                      .:..    ...  .....    .......   .:... ..:..  ...::..::...                     </text>
     </g>
     <g class="row" style="animation-delay: 0.525s;">
-      <text x="18" y="169.5">s%####%###c*c:`-*==-.```:-:-*-=++**=+c#s*=*-=-+sc*cc</text>
+      <text x="185" y="125.6" text-anchor="middle" xml:space="preserve">                     .:...   ..   ..... ..:--===--::...............    ..:::::.                     </text>
     </g>
     <g class="row" style="animation-delay: 0.560s;">
-      <text x="18" y="178.0">+c=:s%####=sc-=#*:++`.::.``+%+=c::-:---=**++=-csscss</text>
+      <text x="185" y="130.88" text-anchor="middle" xml:space="preserve">                     .:..   ..    .....:-==+++++++==--::.............  ....:::.                     </text>
     </g>
     <g class="row" style="animation-delay: 0.595s;">
-      <text x="18" y="186.5">-=`:c%%%#s-+=:+*-:`--.`:-:-+#%#s-`=*-+*--+==-=%sccss</text>
+      <text x="185" y="136.16" text-anchor="middle" xml:space="preserve">                    ........     . ...:-=++********++=--:...... ............::..                    </text>
     </g>
     <g class="row" style="animation-delay: 0.630s;">
-      <text x="18" y="195.0">`::-c####c==+-=c*-=**`.:-==:=***c***+-*+==+==s#c**cc</text>
+      <text x="185" y="141.44" text-anchor="middle" xml:space="preserve">                     .:....     .. ..:-=++**********++==-:......  ..... ....:..                     </text>
     </g>
     <g class="row" style="animation-delay: 0.665s;">
-      <text x="18" y="203.5"> ---ss#%c+=-+=+**==::=..--::``=***+=*+=:+=:-=cs=++*c</text>
+      <text x="185" y="146.72" text-anchor="middle" xml:space="preserve">                     ...:..     .. ..:-=++***#####***++==-.......  ........::........               </text>
     </g>
     <g class="row" style="animation-delay: 0.700s;">
-      <text x="18" y="212.0">-s+:+s#%=:c+*+-+-.  .:-.`:..`-*c+=-*===--= `-=+++***</text>
+      <text x="185" y="152.0" text-anchor="middle" xml:space="preserve">                       .:.....  . ..:-=+***#########****++-:-:.....   ......:..........             </text>
     </g>
     <g class="row" style="animation-delay: 0.735s;">
-      <text x="18" y="220.5">csc*=cs#-`ccc+:=*=``````..:+s*=c++++++`==+--:`=*cccc</text>
+      <text x="185" y="157.28" text-anchor="middle" xml:space="preserve">                       ......... .::::----=++**#####***+=-::::::.::.... ...................         </text>
     </g>
     <g class="row" style="animation-delay: 0.770s;">
-      <text x="18" y="229.0">####++#s+`css=``-##ssc*+csscc*-*c+=cc*+--===+-=cccss</text>
+      <text x="185" y="162.56" text-anchor="middle" xml:space="preserve">                  ........:.... .=+=-====----==+*****++=--=++++++++-.........................       </text>
     </g>
     <g class="row" style="animation-delay: 0.805s;">
-      <text x="18" y="237.5">*cs+-:*s*-*#s::--cs**cs#%#c+++:=+:=-==ccccccc==****c</text>
+      <text x="185" y="167.84" text-anchor="middle" xml:space="preserve">                .............: .*##+==-=-=--===-==++++==----=++*##%#=.::.......................     </text>
     </g>
     <g class="row" style="animation-delay: 0.840s;">
-      <text x="18" y="246.0">+*c*+-:--=c%#=-==*s***cc%#sc++:`-:-=+=`=++==+=++cccc</text>
+      <text x="185" y="173.12" text-anchor="middle" xml:space="preserve">               ............:...:+++=-::-..==-=--=+*+=++=--::+==++*+++:...-:......................   </text>
     </g>
     <g class="row" style="animation-delay: 0.875s;">
-      <text x="18" y="254.5">*=-==--::=cc++*++=sc*cc-##sc++-:-+*+**=-=+=+++==*+**</text>
+      <text x="185" y="178.4" text-anchor="middle" xml:space="preserve">              ........... ---:.**+==-======+==--+##+=*#*++++**+*+++*%+.=++=........................ </text>
     </g>
     <g class="row" style="animation-delay: 0.910s;">
-      <text x="18" y="263.0">s#+==-====+=-:::--cc*sc:*#sscc+-:-*+*css*+===+==sc**</text>
+      <text x="185" y="183.68" text-anchor="middle" xml:space="preserve">              ............--==:#%*+++++++++++=--+#%#+*#############%@*-*%*+........................ </text>
     </g>
     <g class="row" style="animation-delay: 0.945s;">
-      <text x="18" y="271.5">ccc*==-::-+:````:`cscss:=scs##+````-+===*-:::`:-#%*+</text>
+      <text x="185" y="188.96" text-anchor="middle" xml:space="preserve">             .............:+=-:#%#+++*******+==+*#%%%#*######%%%%#%%@#:+#%+.........................</text>
+    </g>
+    <g class="row" style="animation-delay: 0.980s;">
+      <text x="185" y="194.24" text-anchor="middle" xml:space="preserve">            ..............:+:::*%#++++******++++*######**##%%%%%%%%%%*+**%=.........................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.015s;">
+      <text x="185" y="199.52" text-anchor="middle" xml:space="preserve">         .................:+---+%#*++****#*+-=-:==++==*####%%%%%##%%%#####-.........................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.050s;">
+      <text x="185" y="204.8" text-anchor="middle" xml:space="preserve">         ..................:++=+##*+++*****+====+**##*#%%%##%%%##%%%%##%#-..........................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.085s;">
+      <text x="185" y="210.08" text-anchor="middle" xml:space="preserve">          ..................:--=##**+++*********####%%%%%%%%#####%%%#**+:.:.........................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.120s;">
+      <text x="185" y="215.36" text-anchor="middle" xml:space="preserve">         .......................+#**++++**+=======+++++++=*########%+::..::::.......................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.155s;">
+      <text x="185" y="220.64000000000001" text-anchor="middle" xml:space="preserve">        ........................:*#*+++++++---=++*+********########*::::::::::::....................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.190s;">
+      <text x="185" y="225.92000000000002" text-anchor="middle" xml:space="preserve">         ......................:.-**+++++++++++++****###%%########*-:::::::::::::::.................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.225s;">
+      <text x="185" y="231.20000000000002" text-anchor="middle" xml:space="preserve">        .......................::.:+*++==+++++++****############*+-::::::::::::::::.................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.260s;">
+      <text x="185" y="236.48000000000002" text-anchor="middle" xml:space="preserve">        ...................:::::::.:*++++++++****#############***:::::::::::::::::::................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.295s;">
+      <text x="185" y="241.76000000000002" text-anchor="middle" xml:space="preserve">        ..................::::::::::**++++++++****##########*++*#::::::::::::::::::::...............</text>
+    </g>
+    <g class="row" style="animation-delay: 1.330s;">
+      <text x="185" y="247.04000000000002" text-anchor="middle" xml:space="preserve">        ................::::::::::::+*========++++********+++**%*::::::::::::::::::::::.............</text>
+    </g>
+    <g class="row" style="animation-delay: 1.365s;">
+      <text x="185" y="252.32000000000002" text-anchor="middle" xml:space="preserve">       ................::::::::::::.=*======------------===+*####.:::::::::::::::::::::.............</text>
+    </g>
+    <g class="row" style="animation-delay: 1.400s;">
+      <text x="185" y="257.6" text-anchor="middle" xml:space="preserve">       ................::::::::::...:*========--------==+**####%+.:.:::::::::::::::::::.............</text>
+    </g>
+    <g class="row" style="animation-delay: 1.435s;">
+      <text x="185" y="262.88" text-anchor="middle" xml:space="preserve">       ...............::::::::::. .: :=========--===++****####%+.:-..::-::::::::::::::::............</text>
+    </g>
+    <g class="row" style="animation-delay: 1.470s;">
+      <text x="185" y="268.16" text-anchor="middle" xml:space="preserve">       ...............:::::::...  :..  :-==========++***######=..::. .:::--::::::::::::::...........</text>
+    </g>
+    <g class="row" style="animation-delay: 1.505s;">
+      <text x="185" y="273.44" text-anchor="middle" xml:space="preserve">       ...............:::::.  ..  ....  .:-======++****####*=:....:. .::::::::::::::::::::..........</text>
+    </g>
+    <g class="row" style="animation-delay: 1.540s;">
+      <text x="185" y="278.72" text-anchor="middle" xml:space="preserve">       ..................    ..    .      .:-====+++****#*=:.......  ..::.......::::::::::..........</text>
+    </g>
+    <g class="row" style="animation-delay: 1.575s;">
+      <text x="185" y="284.0" text-anchor="middle" xml:space="preserve">       .............        ...             .:-====++**+-..........  ..:.......  .....:::::.........</text>
+    </g>
+    <g class="row" style="animation-delay: 1.610s;">
+      <text x="185" y="289.28000000000003" text-anchor="middle" xml:space="preserve">        ........            ..                .:=+++*+-............  ............    ...............</text>
+    </g>
+    <g class="row" style="animation-delay: 1.645s;">
+      <text x="185" y="294.56" text-anchor="middle" xml:space="preserve">    ........                                .... .:..  ............  ............. .................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.680s;">
+      <text x="185" y="299.84" text-anchor="middle" xml:space="preserve">........                                    .          ...........   ...........  ..................</text>
+    </g>
+    <g class="row" style="animation-delay: 1.715s;">
+      <text x="185" y="305.12" text-anchor="middle" xml:space="preserve">...                                             ..:::::.  ........  .........    ...................</text>
     </g>
 </svg>

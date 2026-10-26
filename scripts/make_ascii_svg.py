@@ -1,7 +1,7 @@
 import os
 import sys
 
-RAMP = " .`:-=+*cs#%@"  # bright (sparse) -> dark (dense)
+RAMP = " .:-=+*#%@"  # Dark pixels stay sparse against the terminal background.
 
 DEFAULT_ASCII_ART = [
     "                ....................                ",
@@ -37,23 +37,23 @@ DEFAULT_ASCII_ART = [
     " +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+ "
 ]
 
-def make_ascii_svg(image_path="source-prepped.png", output_path="ascii-portrait.svg", target_width=52):
+def make_ascii_svg(image_path="avatar.png", output_path="ascii-portrait.svg", target_width=100):
     rows = []
     
     if os.path.exists(image_path):
         try:
-            from PIL import Image
-            img = Image.open(image_path).convert("L")
+            from PIL import Image, ImageOps
+            img = ImageOps.autocontrast(Image.open(image_path).convert("L"))
             w, h = img.size
             aspect_ratio = h / w
-            target_height = int(target_width * aspect_ratio * 0.55)
+            target_height = max(1, round(target_width * aspect_ratio * 0.5))
             img = img.resize((target_width, target_height), Image.Resampling.LANCZOS)
 
             for y in range(target_height):
                 row_str = ""
                 for x in range(target_width):
                     pixel = img.getpixel((x, y))
-                    idx = int((255 - pixel) / 255 * (len(RAMP) - 1))
+                    idx = pixel * (len(RAMP) - 1) // 255
                     char = RAMP[idx]
                     if char == "&": char = "&amp;"
                     elif char == "<": char = "&lt;"
@@ -69,16 +69,18 @@ def make_ascii_svg(image_path="source-prepped.png", output_path="ascii-portrait.
 
     svg_width = 370
     svg_height = 320
-    font_size = 7.5
-    line_height = 8.5
+    font_size = min((svg_width - 36) / (max(map(len, rows)) * 0.6),
+                    (svg_height - 56) / (len(rows) * 1.2))
+    line_height = font_size * 1.2
+    first_baseline = 28 + (svg_height - 28 - len(rows) * line_height) / 2 + font_size
 
     text_elements = []
     for idx, row in enumerate(rows):
-        y_pos = 42 + (idx * line_height)
+        y_pos = first_baseline + (idx * line_height)
         delay = idx * 0.035
         text_elements.append(f'''
     <g class="row" style="animation-delay: {delay:.3f}s;">
-      <text x="18" y="{y_pos}">{row}</text>
+      <text x="{svg_width // 2}" y="{y_pos}" text-anchor="middle" xml:space="preserve">{row}</text>
     </g>''')
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}" fill="none">
@@ -94,7 +96,7 @@ def make_ascii_svg(image_path="source-prepped.png", output_path="ascii-portrait.
       fill: #58a6ff;
       font-family: "JetBrains Mono", "Courier New", monospace;
       font-size: {font_size}px;
-      letter-spacing: 1px;
+      letter-spacing: 0;
       white-space: pre;
     }}
     .row {{
@@ -103,6 +105,9 @@ def make_ascii_svg(image_path="source-prepped.png", output_path="ascii-portrait.
     }}
     @keyframes typeRow {{
       to {{ opacity: 1; }}
+    }}
+    @media (prefers-reduced-motion: reduce) {{
+      .row {{ opacity: 1; animation: none; }}
     }}
   </style>
 
@@ -125,5 +130,5 @@ def make_ascii_svg(image_path="source-prepped.png", output_path="ascii-portrait.
     print(f"[OK] Successfully generated {output_path}")
 
 if __name__ == "__main__":
-    img_arg = sys.argv[1] if len(sys.argv) > 1 else "source-prepped.png"
+    img_arg = sys.argv[1] if len(sys.argv) > 1 else "avatar.png"
     make_ascii_svg(img_arg)

@@ -48,7 +48,7 @@ def generate_info_card():
   <!-- Terminal Content Lines with explicit X and Y coordinates -->
   <g class="code-text">
     <g class="line" style="animation-delay: 0.08s;">
-      <text x="24" y="56"><tspan class="prompt">➜</tspan> <tspan class="user">161seconds</tspan><tspan class="sub">@github</tspan></text>
+      <text x="24" y="56"><tspan class="prompt">$</tspan> <tspan class="user">161seconds</tspan><tspan class="sub">@github</tspan></text>
       <text x="24" y="74" class="sub">---------------------------------------</text>
     </g>
 
@@ -77,7 +77,7 @@ def generate_info_card():
     </g>
 
     <g class="line" style="animation-delay: 0.64s;">
-      <text x="24" y="230"><tspan class="key">Status    :</tspan> <tspan class="val">Building cool stuff everyday 🚀</tspan></text>
+      <text x="24" y="230"><tspan class="key">Status    :</tspan> <tspan class="val">Learning through practical projects</tspan></text>
     </g>
 
     <!-- Color Palette Blocks -->

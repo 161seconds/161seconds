@@ -1,10 +1,26 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=header" alt="Profile header" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi+I'm+161seconds;Backend+Developer+in+Progress;Building+cool+stuff+everyday;Never+stop+learning" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=800&lines=Nguyen+Van+Quoc+Bao;Backend+Development+with+C%23+and+ASP.NET+Core;APIs%2C+Databases%2C+and+System+Design" alt="Nguyen Van Quoc Bao - Backend development with C# and ASP.NET Core" />
 </p>
+
+## About Me
+
+I'm **Nguyen Van Quoc Bao** (**161seconds**), a third-year student at **FPT University** focused on **backend development**. My main stack is **C# and ASP.NET Core**, with **SQL Server, MySQL, and MongoDB** for data storage.
+
+I'm interested in the decisions behind an API: how data is modeled, how queries perform, and how services fit together. My goal is to build backend services that are clear, maintainable, and easy to test.
+
+My current focus:
+
+- **API development:** RESTful design and backend architecture with ASP.NET Core.
+- **Databases:** data modeling, SQL, and query optimization.
+- **Foundations:** programming, algorithms, and system design.
+
+> **Principle:** Consistency over motivation.
+
+---
 
 <!-- Terminal Profile Art Section -->
 <div align="center">
@@ -26,50 +42,32 @@
 
 ---
 
-## 👨‍💻 About Me
-Hi, I'm **Nguyen Van Quoc Bao**, a third-year student at **FPT University**, currently focusing on becoming a **Backend Developer**.
+## Connect with Me
 
-I’m building strong foundations in:
-- **Programming & Algorithms**
-- **Databases & Query Optimization**
-- **System Design & Backend Architecture**
-
-I enjoy:
-- 🚀 Building scalable APIs & backend services
-- 💡 Solving coding problems & algorithmic challenges
-- 🔍 Understanding how distributed, real-world systems work
-
-Current stack:
-- **C#, ASP.NET Core**
-- **SQL Server, MySQL, MongoDB**
-- **Backend Architecture & RESTful APIs**
-
-> 🎯 **Motto**: *Consistency* > *Motivation*
-
----
-
-## 🌐 Connect with Me
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/baroosipp)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/_baoo.161_/)
 
 ---
 
-# 🛠 Tech Stack
+## Tech Stack
 
-### 💻 Languages
+### Languages
+
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/csharp-5C2D91?style=for-the-badge&logo=csharp&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-### ⚙️ Backend & Database
+### Backend & Database
+
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/sqlserver-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-### 🌐 Frontend & Tools
+### Frontend & Tools
+
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -82,22 +80,25 @@ Current stack:
 
 ---
 
-## 🏆 GitHub Trophies
-![](https://github-trophies.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
+## GitHub Trophies
+
+![GitHub trophies](https://github-trophies.vercel.app/?username=161seconds&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
+
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://github-stats-extended.vercel.app/api?username=161seconds&show_icons=true&theme=tokyonight&hide_border=true" height="170" alt="GitHub statistics" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=161seconds&layout=compact&theme=tokyonight&hide_border=true" height="170" alt="Most used languages" />
   <br/>
-  <img src="https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://streak-stats.demolab.com?user=161seconds&theme=tokyonight&hide_border=true" height="170" alt="GitHub contribution streak" />
 </div>
 
 ---
 
-## 🎯 Current Goals
+## Current Goals
+
 - [ ] Master ASP.NET Core & clean architecture
 - [ ] Build scalable RESTful APIs & microservices
 - [ ] Deep dive into system design (caching, Redis, queues, rate-limiting)
@@ -105,23 +106,26 @@ Current stack:
 
 ---
 
-## 💬 Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+## Dev Quote
+
+![Developer quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
+
 <p align="center">
-  <img src="https://github.com/161seconds/161seconds/blob/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://github.com/161seconds/161seconds/blob/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
 </p>
 
 ---
 
-## 👀 Profile Views
-![](https://komarev.com/ghpvc/?username=161seconds&color=blue)
+## Profile Views
+
+![Profile views](https://komarev.com/ghpvc/?username=161seconds&color=blue)
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:6C63FF&height=120&section=footer" alt="Profile footer" />
 </p>
