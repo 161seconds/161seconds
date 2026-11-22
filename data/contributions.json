@@ -1,43 +1,15 @@
 {
   "username": "161seconds",
-  "updated_at": "2026-11-21T14:37:41.830136+00:00",
-  "total": 2424,
-  "daily_avg": 6.53,
-  "current_streak": 82,
-  "longest_streak": 82,
+  "updated_at": "2026-11-22T14:32:04.001208+00:00",
+  "total": 2425,
+  "daily_avg": 6.64,
+  "current_streak": 83,
+  "longest_streak": 83,
   "best_day": {
     "date": "2026-06-01",
     "count": 51
   },
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 0
-    },
-    {
-      "date": "2025-11-17",
-      "count": 0
-    },
-    {
-      "date": "2025-11-18",
-      "count": 0
-    },
-    {
-      "date": "2025-11-19",
-      "count": 0
-    },
-    {
-      "date": "2025-11-20",
-      "count": 0
-    },
-    {
-      "date": "2025-11-21",
-      "count": 0
-    },
-    {
-      "date": "2025-11-22",
-      "count": 0
-    },
     {
       "date": "2025-11-23",
       "count": 0
@@ -1492,6 +1464,10 @@
     },
     {
       "date": "2026-11-21",
+      "count": 1
+    },
+    {
+      "date": "2026-11-22",
       "count": 0
     }
   ]
