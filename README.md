@@ -105,13 +105,6 @@ I'm a third-year student in Vietnam building **APIs, data-driven applications, a
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/161seconds/161seconds/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/161seconds/161seconds/output/github-contribution-grid-snake.svg" width="860" alt="GitHub contribution snake animation" />
-  </picture>
-</p>
-
-<p align="center">
   <img src="https://github-trophies.vercel.app/?username=161seconds&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4" width="860" alt="GitHub contribution trophies for 161seconds" />
 </p>
 
